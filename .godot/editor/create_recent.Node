@@ -1,0 +1,16 @@
+VBoxContainer
+MarginContainer
+Sprite2D
+AudioStreamPlayer2D
+AudioStreamPlayer
+AnimatedSprite2D
+Line2D
+DirectionalLight2D
+PointLight2D
+CanvasModulate
+Area2D
+CollisionShape2D
+Camera2D
+CharacterBody2D
+Node2D
+TileMap

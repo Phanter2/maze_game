@@ -1,0 +1,10 @@
+[gd_scene load_steps=2 format=3 uid="uid://cfri62vwqqk1e"]
+
+[ext_resource type="Texture2D" uid="uid://yo8n407psnsj" path="res://New Piskel (11).png" id="1_apw6h"]
+
+[node name="Node2D" type="Node2D"]
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+position = Vector2(0, 2.38419e-07)
+scale = Vector2(0.5, 0.416667)
+texture = ExtResource("1_apw6h")

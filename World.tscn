@@ -1,0 +1,45 @@
+[gd_scene load_steps=7 format=3 uid="uid://cr7ran73h7e65"]
+
+[ext_resource type="Texture2D" uid="uid://di1uanaety0an" path="res://block.png" id="1_f7n5k"]
+[ext_resource type="PackedScene" uid="uid://bgdmo63an5mhp" path="res://player.tscn" id="2_jf80a"]
+[ext_resource type="Texture2D" uid="uid://cs4yoqhtuv6fi" path="res://light.png" id="3_1exbv"]
+[ext_resource type="PackedScene" uid="uid://ce1x0pj2sq3u3" path="res://trail.tscn" id="4_6bxwj"]
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_trivp"]
+texture = ExtResource("1_f7n5k")
+0:0/0 = 0
+0:0/0/physics_layer_0/linear_velocity = Vector2(0, 0)
+0:0/0/physics_layer_0/angular_velocity = 0.0
+0:0/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8, -8, 8, -8, 8, 8, -8, 8)
+
+[sub_resource type="TileSet" id="TileSet_bf5tl"]
+physics_layer_0/collision_layer = 1
+sources/0 = SubResource("TileSetAtlasSource_trivp")
+
+[node name="Level1" type="Node2D"]
+
+[node name="TileMap" type="TileMap" parent="."]
+texture_filter = 1
+position = Vector2(0, 7)
+tile_set = SubResource("TileSet_bf5tl")
+format = 2
+layer_0/tile_data = PackedInt32Array(655380, 0, 0, 720916, 0, 0, 786452, 0, 0, 851988, 0, 0, 917524, 0, 0, 983060, 0, 0, 1048596, 0, 0, 1114132, 0, 0, 1179668, 0, 0, 1245204, 0, 0, 1310740, 0, 0, 1376276, 0, 0, 1441812, 0, 0, 1507348, 0, 0, 1572884, 0, 0, 1572885, 0, 0, 1572886, 0, 0, 1572887, 0, 0, 1572888, 0, 0, 1572889, 0, 0, 1572890, 0, 0, 1572891, 0, 0, 1572892, 0, 0, 1572893, 0, 0, 1572894, 0, 0, 1572895, 0, 0, 1572896, 0, 0, 1572897, 0, 0, 1572898, 0, 0, 1572899, 0, 0, 1572900, 0, 0, 1572901, 0, 0, 1572902, 0, 0, 1572903, 0, 0, 1572904, 0, 0, 1572905, 0, 0, 1572906, 0, 0, 1572907, 0, 0, 1572908, 0, 0, 1572909, 0, 0, 1572910, 0, 0, 1572911, 0, 0, 1572912, 0, 0, 1507376, 0, 0, 1441840, 0, 0, 1376304, 0, 0, 1310768, 0, 0, 1245232, 0, 0, 1179696, 0, 0, 1114160, 0, 0, 1048624, 0, 0, 983088, 0, 0, 917552, 0, 0, 852016, 0, 0, 786480, 0, 0, 720944, 0, 0, 655408, 0, 0, 655407, 0, 0, 655406, 0, 0, 655405, 0, 0, 655404, 0, 0, 655403, 0, 0, 655402, 0, 0, 655401, 0, 0, 655400, 0, 0, 655399, 0, 0, 655398, 0, 0, 655397, 0, 0, 655396, 0, 0, 655395, 0, 0, 655394, 0, 0, 655393, 0, 0, 655392, 0, 0, 655391, 0, 0, 655390, 0, 0, 655389, 0, 0, 655388, 0, 0, 655387, 0, 0, 655386, 0, 0, 655385, 0, 0, 655384, 0, 0, 655383, 0, 0, 655382, 0, 0, 655381, 0, 0, 720921, 0, 0, 786457, 0, 0, 851993, 0, 0, 917529, 0, 0, 983065, 0, 0, 1048601, 0, 0, 1114137, 0, 0, 1179673, 0, 0, 1245209, 0, 0, 851992, 0, 0, 786456, 0, 0, 720920, 0, 0, 786455, 0, 0, 851991, 0, 0, 917528, 0, 0, 1245210, 0, 0, 1245211, 0, 0, 1179675, 0, 0, 1114139, 0, 0, 1114140, 0, 0, 1048604, 0, 0, 1179677, 0, 0, 1245213, 0, 0, 1245214, 0, 0, 1245215, 0, 0, 1245216, 0, 0, 1245217, 0, 0, 1245218, 0, 0, 1245219, 0, 0, 1179683, 0, 0, 1179684, 0, 0, 1179685, 0, 0, 1114149, 0, 0, 1114150, 0, 0, 1048614, 0, 0, 1048615, 0, 0, 983080, 0, 0, 917544, 0, 0, 917545, 0, 0, 983081, 0, 0, 983082, 0, 0, 1048618, 0, 0, 1114154, 0, 0, 1114155, 0, 0, 1179691, 0, 0, 1245227, 0, 0, 1310763, 0, 0, 1376299, 0, 0, 1507357, 0, 0, 1441821, 0, 0, 1507353, 0, 0, 1441817, 0, 0, 1376280, 0, 0, 1507349, 0, 0, 1507350, 0, 0, 1507351, 0, 0, 1179672, 0, 0, 1179671, 0, 0, 1179669, 0, 0, 1376303, 0, 0, 1376302, 0, 0, 1376301, 0, 0, 720931, 0, 0, 786467, 0, 0, 983068, 0, 0, 720924, 0, 0, 786460, 0, 0, 720941, 0, 0, 786477, 0, 0, 852013, 0, 0, 917549, 0, 0, 983084, 0, 0, 1507363, 0, 0, 1441827, 0, 0, 1114151, 0, 0, 1507368, 0, 0, 1376296, 0, 0, 1441832, 0, 0, 1507367, 0, 0, 1441831, 0, 0, 1507366, 0, 0, 1507362, 0, 0, 1507356, 0, 0, 1507372, 0, 0)
+
+[node name="player" parent="." instance=ExtResource("2_jf80a")]
+unique_name_in_owner = true
+position = Vector2(355, 198)
+
+[node name="Camera2D" type="Camera2D" parent="player"]
+zoom = Vector2(4, 4)
+position_smoothing_enabled = true
+
+[node name="PointLight2D" type="PointLight2D" parent="player"]
+color = Color(1, 1, 0.662745, 1)
+energy = 1.21
+texture = ExtResource("3_1exbv")
+texture_scale = 0.4
+
+[node name="Trail" parent="player" instance=ExtResource("4_6bxwj")]
+
+[node name="CanvasModulate" type="CanvasModulate" parent="."]
+color = Color(0, 0, 0, 1)

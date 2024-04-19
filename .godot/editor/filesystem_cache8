@@ -1,0 +1,23 @@
+ea4bc82a6ad023ab7ee23ee620429895
+::res://::1713541363
+bg_music.tscn::PackedScene::3996293616865675354::1713283133::0::1::::<><>::
+block.png::CompressedTexture2D::7775661644656101857::1710258058::1710258058::1::::<><>::
+brick.png::CompressedTexture2D::7286248188773317771::1710258051::1710258051::1::::<><>::
+icon.svg::CompressedTexture2D::4749170884580988247::1709573351::1709573363::1::::<><>::
+level_2.tscn::PackedScene::7246359722895081403::1713283133::0::1::::<><>::
+light.png::CompressedTexture2D::6097590568757676598::1711467904::1711467904::1::::<><>::
+Line2D.gd::GDScript::-1::1711555208::0::1::::Trails<>Line2D<>::
+lvl2-brick.png::CompressedTexture2D::8773961084532341047::1710258041::1710258042::1::::<><>::
+New Piskel (11).png::CompressedTexture2D::1715461975223637345::1711640444::1711640444::1::::<><>::
+node_2d.tscn::PackedScene::5159422554541512352::1712765709::0::1::::<><>::uid://yo8n407psnsj
+player.gd::GDScript::-1::1712678924::0::1::::<>CharacterBody2D<>::
+player.tscn::PackedScene::2814502155308284525::1713283133::0::1::::<><>::res://player.gd<>uid://yo8n407psnsj::::res://New Piskel (11).png
+Sprite2D.gd::GDScript::-1::1710430219::0::1::::<>Sprite2D<>::
+trail.gd::GDScript::-1::1713282106::0::1::::<>Line2D<>::
+trail.tscn::PackedScene::5108712502230101236::1713283133::0::1::::<><>::res://trail.gd
+voxelExpansion_spritesheet.png::CompressedTexture2D::1203050439167497731::1709661396::1709661397::1::::<><>::
+voxelExpansion_tilesheet.png::CompressedTexture2D::1250266081855663424::1709661392::1709661392::1::::<><>::
+voxelExpansion_tilesheet@2.png::CompressedTexture2D::6909760669211420847::1709661400::1709661400::1::::<><>::
+World.tscn::PackedScene::6033144719759798204::1713283133::0::1::::<><>::uid://di1uanaety0an::::res://block.png<>uid://bgdmo63an5mhp::::res://player.tscn<>uid://cs4yoqhtuv6fi::::res://light.png<>uid://ce1x0pj2sq3u3::::res://trail.tscn
+yt5s.com - Sonic 2 SMS_GG - Sky High Zone (YM2612 Cover) (128 kbps).mp3::AudioStreamMP3::5344797179199818412::1712763663::1712763827::1::::<><>::
+::res://maze_game/::1710432962
